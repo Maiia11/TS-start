@@ -5,14 +5,3 @@ function add(num1: number, num2: number) {
 
 console.log(add(1, 2));
 
-
-
-
-let notSure: any = 4;
-notSure = 'maybe a string instead';
-notSure = false;
-notSure = {};
-
-let num: number;
-
-num = notSure;
