@@ -41,3 +41,18 @@ class Animal implements Walkable, Eatable {
 
 const animal = new Animal();
 console.log(animal);
+
+
+function firstElement<T>(arr: T[]): T {
+  return arr[0];
+}
+
+let numbers = [1, 2, 3, 4, 5];
+let firstNum = firstElement(numbers);
+console.log(firstNum);
+
+
+let strings = ['a', 'b', 'c', 'd'];
+let firstStr = firstElement(strings);
+console.log(firstStr);
+
